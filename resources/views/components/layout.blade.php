@@ -8,7 +8,7 @@
     <title>Cinema Ticket Booker</title>
 </head>
 
-<body>
+<body class="p-4">
     {{$slot}}
 </body>
 
