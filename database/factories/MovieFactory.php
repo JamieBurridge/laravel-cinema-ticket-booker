@@ -19,6 +19,7 @@ class MovieFactory extends Factory
         return [
             'title' => $this->faker->sentence(3),
             'description' => $this->faker->paragraph,
+            'ticket_price' => $this->faker->randomFloat(2, 5, 20),
             'image' => $this->faker->imageUrl(),
         ];
     }
