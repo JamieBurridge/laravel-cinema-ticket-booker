@@ -1,9 +1,11 @@
 <x-layout>
-    <h1 class="text-2xl text-white font-bold pb-6">Movies currently on show:</h1>
+    <x-heading styles="pb-6">
+        Currently screening
+    </x-heading>
 
     @unless (count($movies) == 0)
 
-    <div class="flex flex-wrap justify-center gap-4">
+    <div class="flex flex-wrap justify-center gap-2">
         @foreach ($movies as $movie)
         <div class="card w-96 bg-base-100 shadow-xl">
             <figure><img src="{{$movie['image']}}" class="max-h-[500px] w-full" /></figure>
