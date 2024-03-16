@@ -16,6 +16,6 @@
             </ul>
         </div>
 
-        <a class="btn btn-ghost text-xl" href="/">La-Cinema</a>
+        <a class="btn btn-ghost text-xl" href="/">La Cinema</a>
     </div>
 </div>

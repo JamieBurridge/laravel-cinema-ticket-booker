@@ -3,8 +3,8 @@
         <div class="hero-overlay bg-opacity-70"></div>
         <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">La-Cinema</h1>
-            <p class="mb-5">Catch the latest movies at the best prices. Get an authentick cinema experience with food and drinks included.</p>
+            <h1 class="mb-5 text-5xl font-bold">La Cinema</h1>
+            <p class="mb-5">Catch the latest movies at the best prices. Get an authentic cinema experience with food and drinks included.</p>
             
             <a href="/movies">
                 <button class="btn btn-primary">See what's screening</button>
