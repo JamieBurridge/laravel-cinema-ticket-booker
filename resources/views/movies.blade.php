@@ -5,7 +5,7 @@
 
     @unless (count($movies) == 0)
 
-    <div class="flex flex-wrap justify-center gap-2">
+    <div class="flex flex-wrap justify-center md:justify-start gap-2">
         @foreach ($movies as $movie)
         <div class="card w-96 bg-base-100 shadow-xl">
             <figure><img src="{{$movie->image}}" class="max-h-[500px] w-full" /></figure>
