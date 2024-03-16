@@ -8,12 +8,12 @@
     <div class="flex flex-wrap justify-center gap-2">
         @foreach ($movies as $movie)
         <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="{{$movie['image']}}" class="max-h-[500px] w-full" /></figure>
+            <figure><img src="{{$movie->image}}" class="max-h-[500px] w-full" /></figure>
             <div class="card-body">
-                <h2 class="card-title">{{$movie["title"]}}</h2>
-                <p>{{$movie["description"]}}</p>
+                <h2 class="card-title">{{$movie->title}}</h2>
+                <p>{{$movie->description}}</p>
                 <div class="card-actions justify-start">
-                    <a href="/movies/{{$movie['id']}}
+                    <a href="/movies/{{$movie->id}}
                     ">
                         <button class="btn btn-primary">View schedule</button>
                     </a>

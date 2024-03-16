@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Movie;
+use App\Models\Screening;
 use Illuminate\Support\Facades\Route;
 
 // Homepage
@@ -17,8 +18,23 @@ Route::get('/movies', function () {
 
 // Single movie
 Route::get('/movies/{id}', function ($id) {
-    return view('movie', [
-        "movie" => Movie::find($id)
+    $movie = Movie::find($id);
+    $screenings = Screening::with("room")->where("movie_id", $id)->get();
+
+    return view("movie", [
+        "movie" => $movie,
+        "screenings" => $screenings
+    ]);
+});
+
+// Show all screenings
+Route::get("/movies/{id}/book/{screening_id}", function ($id, $screening_id) {
+    $movie = Movie::find($id);
+    $screening = Screening::with("room")->find($screening_id);
+
+    return view("book", [
+        "movie" => $movie,
+        "screening" => $screening
     ]);
 });
 
@@ -26,3 +42,5 @@ Route::get('/movies/{id}', function ($id) {
 Route::get("/about", function () {
     return view("about");
 });
+
+
