@@ -1,7 +1,7 @@
 <x-layout>
     {{-- Movie details --}}
     <div class="lg:flex gap-6">
-        <figure><img src="{{ $movie->image }}" class="max-w-[300px] h-[400px]" /></figure>
+        <figure><img src="{{ $movie->image }}" class="max-w-[300px] h-[400px] rounded-md" /></figure>
 
         <div class="flex flex-col justify-between pt-6 lg:pt-2">
             <div>
