@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         $movie = Movie::factory()->create();
+        Movie::factory(5)->create();
         $room = Room::factory()->create();
 
         Screening::factory(2)->create([

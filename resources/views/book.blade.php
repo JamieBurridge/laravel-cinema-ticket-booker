@@ -27,7 +27,4 @@
             <button class="btn btn-outline btn-primary mt-4">Book</button>
         </a>
     </form>
-
-
-    <hr class="my-6">
 </x-layout>
