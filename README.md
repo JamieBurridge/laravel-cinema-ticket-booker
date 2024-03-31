@@ -17,5 +17,8 @@ Book tickets for the latest and greatest movies at La Cinema (fictional company)
 
 ![image](https://github.com/JamieBurridge/laravel-cinema-ticket-booker/assets/80159413/efbfdf69-0665-435e-98b3-944315af63fc)
 
-![image](https://github.com/JamieBurridge/laravel-cinema-ticket-booker/assets/80159413/c8604291-8809-4665-a12a-2d6cb994cde5)
+![image](https://github.com/JamieBurridge/laravel-cinema-ticket-booker/assets/80159413/df6d8235-c3ae-4b7e-9f13-1c1e179948f3)
+
+![image](https://github.com/JamieBurridge/laravel-cinema-ticket-booker/assets/80159413/4aa1cefb-3d98-47ec-8c0a-fdc0c9311ce7)
+
 
