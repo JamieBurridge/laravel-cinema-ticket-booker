@@ -11,7 +11,7 @@
 
         {{-- Form: Name --}}
         <x-label-form>Name</x-label-form>
-        <input type="text" placeholder="Neo" name="name" class="input input-bordered w-full" />
+        <input type="text" placeholder="John Smith" name="name" class="input input-bordered w-full" />
 
         {{-- Form: Email --}}
         <x-label-form>Email</x-label-form>
