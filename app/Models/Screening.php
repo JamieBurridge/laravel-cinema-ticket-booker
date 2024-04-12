@@ -9,6 +9,8 @@ class Screening extends Model
 {
     use HasFactory;
 
+    protected $fillable = ["seats_available"];
+
     public function room()
     {
         return $this->belongsTo(Room::class);
